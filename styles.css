@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    gap: 300px;
+    background: #C0C0C0;
+    height: 300 px;
+    width: 100%;
+}
+.item-item1{
+    display: grid;
+    background-color: white;
+    height: 10vh;
+}
+
+.item-item2{
+    display: grid;
+    
+}
+.item-item3{
+    display: grid;
+    background-color: black;
+    height: 100px;
+}
+.h3{
+    color: white;
+}
+.item-item-item3{
+    display: grid;
+    column-gap: 100px;
+    grid-template-columns: 100px 100px;
+    color:#C0C0C0;
+     
+}
+.item-item-item4{
+    display: grid;
+    column-gap: 100px;
+    grid-template-columns: 100px 100px;
+    color:#C0C0C0;
+    
+}
