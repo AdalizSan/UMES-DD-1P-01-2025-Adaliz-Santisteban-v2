@@ -1,39 +1,14 @@
-.container{
-    display: grid;
-    gap: 300px;
+.container{  
+    flex-direction: row;
     background: #C0C0C0;
-    height: 300 px;
-    width: 100%;
+    
 }
-.item-item1{
-    display: grid;
+.container-header{
     background-color: white;
-    height: 10vh;
+    position: fixed;
+    border-radius: 10px;
+    width: 99%;
+    border-bottom: 5px solid black;
+    
 }
 
-.item-item2{
-    display: grid;
-    
-}
-.item-item3{
-    display: grid;
-    background-color: black;
-    height: 100px;
-}
-.h3{
-    color: white;
-}
-.item-item-item3{
-    display: grid;
-    column-gap: 100px;
-    grid-template-columns: 100px 100px;
-    color:#C0C0C0;
-     
-}
-.item-item-item4{
-    display: grid;
-    column-gap: 100px;
-    grid-template-columns: 100px 100px;
-    color:#C0C0C0;
-    
-}
